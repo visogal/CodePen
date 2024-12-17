@@ -1,0 +1,53 @@
+/* NAV CONTAINER */
+.nav-wrapper {
+  height: 200px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* NAV COL 1 */
+.nav-wrapper > .nav-col1-wrapper img{
+  height: 25px;
+  margin-left: 10px;
+}
+
+/* NAV COL 2 */
+.nav-wrapper > .nav-col2-wrapper {
+  background-color: blue;
+}
+
+.col2-left-wrapper{
+  background-color: aquamarine;
+}
+.col2-left-wrapper > .col2-left-down-wrapper{
+  background-color: greenyellow;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.col2-left-wrapper > .col2-left-down-wrapper p{
+  color: #ece187;
+}
+
+.col2-right-wrapper {
+  background-color: chocolate;
+}
+
+
+/* NAV COL 3 */
+.nav-wrapper > .nav-col3-wrapper {
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-wrapper > .nav-col3-wrapper > .col3-2-wrapper {
+  color: #36383f;
+}
+
+/* BUTTOMS */
+.nav-col3-wrapper button, .col3-2-wrapper i{
+  padding: 10px 15px;
+}

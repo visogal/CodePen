@@ -1,0 +1,10 @@
+.main-wrapper{
+  background-color: bisque;
+  height: 500px;
+  width: 100%;
+}
+/* MAIN COL1 */
+/* MAIN COL2 */
+.main-col2 span{
+  color: aqua;
+}
